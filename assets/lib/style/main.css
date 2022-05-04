@@ -209,3 +209,16 @@ button:hover {
     z-index: 99; /* Make sure it does not overlap */
     padding: 15px; /* Some padding */
 }
+
+/*browser text selection*/
+
+::-moz-selection {
+    background-color: #9a008d;
+    color: #ffffff;
+}
+
+
+::selection{
+    background-color: #9a008d;
+    color: #ffffff;
+}
