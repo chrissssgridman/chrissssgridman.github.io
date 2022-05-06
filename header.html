@@ -1,25 +1,4 @@
 <link rel="stylesheet" href="/assets/lib/style/main.css" type="text/css">
-<!-- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
-<script>
-    // Get the button
-    var mybutton = document.getElementById("sttBtn");
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
-    function scrollFunction() {
-        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
 
 <p class="header">
     <table class="borderless" width="100%">
@@ -33,6 +12,3 @@
 </p>
 
 <marquee>THIS IS A <b>HOSTILE TAKEOVER</b> by <b>CHRISCORP™</b></marquee>
-
-<!--scroll to top-->
-<button onclick="topFunction()" id="sttBtn">▲</button>
